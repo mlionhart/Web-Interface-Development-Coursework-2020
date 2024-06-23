@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <title>Book Challenge - 3/2/2020</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: pink;
+        }
+
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+            display: grid;
+            align-items: center;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 300px 700px;
+            background: grey;
+        }
+
+        .publisher {
+            grid-column: 1/4;
+            background: white;
+        
+            justify-items:center;
+        }
+
+        .publisher h2 {
+            display: inline-block;
+        }
+
+        .stuff {
+            display: grid;
+            background: #7864AB;
+            grid-column: 1/5;
+            /* place-items: center; */
+            width: 100%;
+            height: 100%;
+        }
+
+        .circle_container {
+            background: white;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .circle {
+            display: grid;
+            place-items: center;
+            height: 100px;
+            width: 100px;
+            background: black;
+            border-radius: 50%;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            margin-bottom: -3em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="publisher">
+            <img src="img/leaf.JPG" alt="Leaf Logo">
+            <h2>A BOOK APART</h2>
+        </div>
+        <div class="circle_container">
+            <div class="circle">
+                <p>No</p>
+                <h1>24</h1>
+            </div>
+        </div>
+
+        <div class="stuff">
+            <h2 class="author">Rachel Andrew</h2>
+            <h1>THE NEW<br> CSS LAYOUT</h1>
+            <p class="foreword">FOREWORD BY Jen Simmons</p>
+        </div>
+    </div>
+</body>
+
+</html>

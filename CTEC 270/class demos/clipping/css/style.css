@@ -1,0 +1,27 @@
+.container {
+    background: white;
+    margin: 0 auto;
+    /* filter: drop-shadow(30px 10px 4px black); */
+    width: 80%;
+}
+
+.wrapper2 {
+    filter: drop-shadow(30px 10px 4px black);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    background: red;
+    padding: 2em;
+    clip-path: polygon(10% 0, 0 100%, 90% 100%, 100% 0);
+    padding-left: 15%;
+    padding-right: 15%;
+    filter: drop-shadow(30px 10px 4px black);
+    
+}
+
+img {
+    box-shadow: 4px 4px 12px black;    
+}

@@ -1,0 +1,26 @@
+body {
+   background: #DADADA;
+}
+
+.container {
+   display: grid;
+   width: 1500px;
+   margin: 0 auto;
+   column-gap: 10px;
+   row-gap: 10px;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(6, 300px);
+}
+
+.bruce {
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   background: black;
+   color: white;
+   grid-column-start: 1;
+   grid-column-end: 6;
+   text-align: center;
+   font-size: 8rem;
+}
+

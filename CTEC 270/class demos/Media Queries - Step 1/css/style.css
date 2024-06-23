@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Oswald&display=swap');
+html {
+    font-size: 32px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+
+.container {
+    margin: 1em auto;
+    width: 95%;
+    max-width: 850px;
+    box-shadow: aliceblue;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    padding: 1em;
+    background: lightcyan;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    color: darkred;
+    text-transform: uppercase;
+}
+
+h1 span {
+    display: block;
+    color: darkslategray;
+    font-size: .75em;
+}
+
+p {
+    font-family: 'Arvo', serif;
+    color: #3e4147;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-bottom: 2em;
+    /* display: none; */
+}
+
+@media (min-width:600px) {
+    p {
+        font-size: 1.25rem;
+        display: none;
+        /* visibility: hidden; */
+    }
+}
+
+@media screen and (min-width:800px) {
+    p {
+        font-size: 1.5em;
+        line-height: 1.5;
+        display: block;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (min-width:1200px) {
+    p {
+        font-size: 2rem;
+        line-height: 2;
+    }
+}
+

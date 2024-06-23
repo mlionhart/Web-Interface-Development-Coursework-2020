@@ -1,0 +1,39 @@
+/* style.css */
+:root {
+    --dark: #810909; 
+    --light: #7adcfd;
+    --special: #f3cf8b;
+}
+
+#pagewrapper {
+    background-color: var(--special);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    width: 960px;
+    margin: 0 auto;
+    background-color: var(--light);
+}
+
+h1 {
+    text-align: center;
+}
+
+header {
+    background-color: var(--dark);
+    padding: 10px;
+    color: #ffffff;
+
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+}

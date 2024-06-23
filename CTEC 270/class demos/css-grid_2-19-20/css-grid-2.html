@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grid Demo 2</title>
+    <style>
+        body {
+            background: dodgerblue;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            /* column-gap: 1em; */
+            /* row-gap: 1em; */
+            /* grid-auto-rows: minmax(200px, auto); */
+            gap: 1em;
+            align-items: center;
+        }
+
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+            border: 2px solid black;
+        }
+
+        .wrapper > div:nth-child(even) {
+            background: #ddd;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam fugit reiciendis modi laudantium temporibus, dicta iure commodi, rerum numquam necessitatibus, a explicabo accusantium dolorem ullam placeat veritatis quod iusto!</div>
+
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam fugit reiciendis modi laudantium temporibus, dicta iure commodi, rerum numquam necessitatibus, a explicabo accusantium dolorem ullam placeat veritatis quod iusto!</div>
+
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam fugit reiciendis modi laudantium temporibus, dicta iure commodi, rerum numquam necessitatibus, a explicabo accusantium dolorem ullam placeat veritatis quod iusto!</div>
+
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam fugit reiciendis modi laudantium temporibus, dicta iure commodi, rerum numquam necessitatibus, a explicabo accusantium dolorem ullam placeat veritatis quod iusto!</div>
+
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsam fugit reiciendis modi laudantium temporibus, dicta iure commodi, rerum numquam necessitatibus, a explicabo accusantium dolorem ullam placeat veritatis quod iusto!</div>
+    </div>
+</body>
+</html>

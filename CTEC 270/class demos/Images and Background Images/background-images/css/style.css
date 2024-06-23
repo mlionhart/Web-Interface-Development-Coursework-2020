@@ -1,0 +1,75 @@
+/* style.css */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Garamond', 'Times New Roman', Verdana, Arial, Helvetica, sans-serif;
+    color: #eee;
+    background-color: #333;
+}
+
+.words {
+    position: absolute;
+    background: rgba(255, 255, 255, .4);
+    width: 100%;
+    margin: 0;
+    bottom: 15px;
+}
+
+.words p {
+    margin: 0;
+    padding: 0 0 10px 20px;
+    font-size: 1.5em;
+    color: rgba(51, 59, 74, 1.0);
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4em;
+    margin: 0;
+    padding: 0 0 0 20px;
+    color: rgba(51, 59, 74, 1.0);
+}
+
+.myimage {
+    position: relative;
+    background: url("../img/cannon_beach.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.bas {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    bottom: 80px;
+    right: 30px;
+    background: black;
+}
+
+/* media queries */
+
+@media (min-width: 400px) {
+    .myimage {
+        height: 260px;
+    }
+    h2 {
+        font-size: 2em;
+        padding: 0 0 0 10px;
+    }
+    .words p {
+        font-size: 1em;
+        padding: 0 0 0 10px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 600px) {
+    .myimage {
+        height: 500px;
+    }
+}

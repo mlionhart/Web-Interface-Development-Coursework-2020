@@ -1,0 +1,42 @@
+/* style.css */
+
+@import url('https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #d7d7d7;
+    font-family: 'Jura';
+}
+
+.wrapper {
+    width: 90%;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+    justify-content: center;
+    place-items: center;
+    align-self: center;
+}
+
+.item {
+    filter: drop-shadow(5px 5px 4px #333333);
+}
+
+.heading {
+    font-weight: 700;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    color: white;
+    width: 200px;
+    height: 100px;
+    filter: drop-shadow(5px 5px 4px #333333);
+}

@@ -1,0 +1,46 @@
+/* style.css */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee; 
+    padding: 30px;
+    font-family: 'Source Code Pro', Monaco;
+    background-color: #333;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #fff;
+}
+
+.object-fit_fill { object-fit: fill; }
+.object-fit_contain { object-fit: contain; }
+.object-fit_cover { object-fit: cover; }
+.object-fit_none { object-fit: none; }
+.object-fit_scale-down { object-fit: scale-down; }
+
+p { 
+    font-weight: 200; 
+    font-size: 1em; 
+    margin-bottom: 10px; 
+    margin-top: 0;
+}
+
+img { 
+    height: 120px; 
+    background-color: #444;
+}
+
+/* any image with a class */
+img[class] { 
+  width: 100%;
+}
+
+.original-image {
+  margin-bottom: 50px;
+}
+
+.image {
+  float: left;
+  width: 40%;
+  margin: 0 30px 20px 0;
+}

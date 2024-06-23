@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=I like, initial-scale=1.0">
+    <title>CSS Text Stroke</title>
+    <style>
+        body {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+            margin: 0 auto;
+            width: 80%;
+            font-size: 2rem;
+            background-color: khaki;
+        }
+
+        h1 {
+            border-bottom: 5px solid darkgreen;
+        }
+
+        .normal {
+            font-size: 5rem;
+            text-transform: uppercase;
+        }
+
+        .outline {
+           font-size: 5rem;
+            color: white;
+            -webkit-text-stroke: 2px black;
+            text-transform: uppercase;
+        }
+
+        a:link, a:visited, a:focus, a:active {
+            color: #333333;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Text Outline Stroke Demo</h1>
+    <p class="normal">We Like Pizza (normal)</p>
+    <p class="outline">We like pizza (outlined)</p>
+    <p><a href="https://caniuse.com/#search=-webkit-text-stroke" title="Can I use -webkit-text-stroke">"Can I Use Data" on -webkit-text-stroke</a></p>
+</body>
+</html>

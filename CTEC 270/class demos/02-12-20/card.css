@@ -1,0 +1,96 @@
+ /* Style all font awesome icons */
+ * {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     font-family: "fira sans", sans-serif;
+     line-height: 1.6;
+     width: 60%;
+     margin: 0 auto;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+ }
+
+ .card {
+    width: 80%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(143, 139, 139);
+    text-align: center;
+    padding: 2em;
+    border: 3px solid black;
+ }
+
+ img {
+     border-radius: 50%;
+     border: 4.5px solid white;
+     width: 200px;
+     height: 200px;
+     margin: 0 auto;
+     margin-bottom: 1em;
+     /* padding: 1em; */
+ }
+
+ .social-list {
+     list-style: none;
+     display: flex;
+     padding: 1em;
+     justify-content: space-around;
+     width: 150px;
+     margin: 0 auto;
+ }
+ 
+ .fa {
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1px;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  } 
+
+  .fa-linkedin {
+      background: blue;
+      color: white;
+  }
+
+  p {
+      padding: 0 50px;
+      text-align: justify;
+  }
+
+  .name {
+    border-bottom: 1px solid black;
+    margin: 0 140px 0 140px;
+    padding-bottom: 22px;
+  }
+
+  .title {
+      font-weight: 400;
+      margin-top: 1em;
+  }
+
+ li:hover {
+      opacity: 0.8;
+  }

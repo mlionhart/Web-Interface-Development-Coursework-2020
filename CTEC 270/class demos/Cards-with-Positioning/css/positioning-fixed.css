@@ -1,0 +1,74 @@
+/* positioning-fixed.css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 100px 0 0 0;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  background-color: rgb(230, 230, 230);
+}
+
+/* Header */
+
+header.main {
+  background-color: rgb(180, 180, 180);
+  padding: 25px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  overflow: auto;
+}
+
+header.main h1 {
+  text-transform: uppercase;
+  margin: 0;
+  line-height: 1;
+  color: rgb(120, 120, 120);
+}
+
+/* Container */
+
+.container {
+  max-width: 1280px;
+  padding: 25px;
+  overflow: auto;
+  margin: 0 auto;
+}
+
+/* Card Design */
+
+.card {
+  background-color: white;
+  /* width: 33%;
+  float: left;
+  margin-right: 0.5%; */
+  margin-bottom: 25px;
+  padding: 25px;
+  text-align: left;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.cta {
+  background: linear-gradient(to right, rgb(133, 153, 203), rgb(3, 64, 111));
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0;
+}
+
+.cta:hover {
+  background-color: rgb(100, 175, 0);
+}

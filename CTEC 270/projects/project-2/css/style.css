@@ -1,0 +1,169 @@
+/* Importing Roboto Google font */
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Importing Lato Google font */
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
+/* Importing Montserrat Google font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+/* Importing Open Sans Google font */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --body-font: 'Lato', sans-serif;
+  --body-heading-font: 'Montserrat', sans-serif;
+  --alt-font: 'Open Sans', sans-serif;
+  --header-footer-color: #1E76FA;
+  --common-border: 2px solid black;
+}
+
+body {
+  width: 60%;
+  margin: 0 auto;
+  border: var(--common-border);
+}
+
+header {
+  display: flex;
+  background: var(--header-footer-color);
+  color: white;
+  flex-flow: column wrap;
+  margin-bottom: -20px;
+  font-family: var(--main-font);
+}
+
+main {
+  padding: 1em;
+  margin-top: -2em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+img {
+  border-top: var(--common-border);
+  width: 100%;
+}
+
+h2 {
+  font-family: var(--body-heading-font);
+  color: white;
+  padding: .25em;
+  background: white;
+  color: rgb(212, 65, 12);
+}
+
+h2.head {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: var(--main-font);
+}
+
+p {
+  font-family: var(--body-font);
+  margin-left: 1.5em;
+  margin-top: -1em;
+}
+
+footer {
+  background: var(--header-footer-color);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: var(--alt-font);
+  font-size: .75rem;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  header {
+    margin-bottom: -27px;
+  }
+
+  main {
+    padding-left: 2em;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h2.head {
+    padding: .4em 0;
+  }
+  
+  p {
+    font-size: 1.25rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  header {
+    margin-bottom: -30px;
+  }
+
+  main {
+    padding-left: 3em;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+  }
+
+  h2.head {
+    padding: .6em 0;
+  }  
+  
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 4.5rem;
+  }
+
+  header {
+    margin-bottom: -35px;
+  }
+
+  main {
+    padding-left: 3.5em;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.75rem;
+  }
+}
