@@ -1,4 +1,4 @@
-# Web-Interface-Development-Coursework-2020
+# web-interface-design-coursework-2020
 
 
 ## Overview
